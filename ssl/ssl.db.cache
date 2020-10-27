@@ -1,1 +1,0 @@
-{"files":{"certificate":{},"key":{}},"indexes":{"certificate":{"modulus":{},"subject.commonName":{}}},"uniques":{"key":{"modulus":{},"friendly_name":{}},"certificate":{"friendly_name":{}}}}
