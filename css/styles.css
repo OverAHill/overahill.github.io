@@ -4349,8 +4349,9 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.0rem;
+  box-shadow: 10px 10px #C3A6A0;
 }
 .card > hr {
   margin-right: 0;
@@ -6095,7 +6096,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #cc8866 !important;
+  background-color: #F7F1F0 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
