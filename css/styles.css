@@ -10078,19 +10078,19 @@ hr.light {
   }
   #mainNav.navbar-scrolled {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #fff; /* navbar colour*/
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #4F4F51;
+    color: #4F4F51; /* name item colour */
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #2c2b30;
+    color: #d6d6d6; /* name item hover colour */
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #4F4F51;
+    color: #4F4F51; /* navbar item colour */
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #2c2b30;
+    color: #d6d6d6; /* navbar item hover colour */
   }
 }
 
