@@ -10050,10 +10050,10 @@ hr.light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #cc8866;
+  color: #2c2b30;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #cc8844!important;
+  color: #2c2b30!important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10081,16 +10081,16 @@ hr.light {
     background-color: #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
-    color: #212529;
+    color: #4F4F51;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #cc8866;
+    color: #2c2b30;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #4F4F51;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #cc8866;
+    color: #2c2b30;
   }
 }
 
