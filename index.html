@@ -313,11 +313,11 @@
         </section>
 		
 	<section class="page-section bg-dark text-white" >
-	<div id="portfolio">
+		<div id="portfolio">
             <div class="container-fluid p-0">
-		<h1 class="text-center mt-0">Portfolio</h1>
-                	<hr class="divider dark my-4" />
-		    	<p class="text-center" style="font-family:verdana">Click images for more details</p>
+			<h1 class="text-center mt-0">Portfolio</h1>
+                <hr class="divider dark my-4" />
+				<p class="text-center" style="font-family:verdana">Click images for more details</p>
                 <div class="row no-gutters">
 				
                     <div class="col-lg-4 col-sm-6">
@@ -325,7 +325,7 @@
 						  <img src="assets/img/portfolio/thumbnails/icons/TGPGroupPro2.png" id="ImageExample1" alt="Colour Theory<br><br> 
 Skills:<br>  - C++ Programing<br> - Unreal Engine 4<br><br> 
 Brief: As part of a team design and create a game in Unreal Engine 4<br>
-Our team, monocode, designed, prototyed and created a physics based puzzle game inspired by 
+Our team, monocode, designed, prototyped and created a physics based puzzle game inspired by 
 portal in Unreal Engine 4. The player changes the properties of cubes using a colour gun and must solve a variety of puzzles.
 My specific work on the programming side was on two cubes, one that attracts and stores all other cubes near it, and another that 
 deletes itself after ten seconds. I also worked on the gun, setting up scripts that change certain materials
@@ -342,31 +342,33 @@ understood how the main gameplay worked.
 						</div>
                     </div>
 					
-                    <div class="col-lg-4 col-sm-6">
+					
+					<div class="col-lg-4 col-sm-6">
                         <div class="containerPortfolio" id="ContainerExample2">
-						  <img src="assets/img/portfolio/thumbnails/icons/PhysicsAssignment.png" id="ImageExample2" alt="Second Year Physics Assignment<br><br> 
-Skills:<br> - C++ programming<br> - DirectX 11<br> - Visual Studio<br><br> 
-Brief: Create a physics engine modeling, rigid bodies, mass aggreates, collisions and a variety of forces<br>
-Using the Game Physics Engine Development book as a reference, I developed a physics engine built in DirectX 11,
- contains rigid body physics, particle force generator,  mass aggregate particles, a variety of forces 
-and collision handling.
-Modelled Forces: bouyancy, turbulent drag (with editable coefficients), gravity, springs, laminar flow
-Colliders: Axis alligned bounding boxes, bounding sphere
-Particle System: particles with a lifecycle that can have varying forces applied to replicate many things, for
-example, rain or smoke. Uses the Object Pool design pattern
-<br>Achieved: 93%  <a href='https://www.youtube.com/watch?v=h9O3CVDcuJ8&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">
+						  <img src="assets/img/Advanced Graphics Bricks Crop.png" id="ImageExample2" alt="Advanced Graphics<br><br> 
+Skills:<br>  - C++ Programing<br> - DirectX 11<br><br>
+Brief: Implement Advanced Rendering Techniques <br>
+I originally used directx 12 as my API of choice but eventually chose to switch to 11 as I was much more familiar with it and found it easier to debug.
+I programmed a camera movement system, and imgui to make object and light manipulation easier then began implementing normal mapping, parallax then self-shadowing. Then 
+added rendering to texture, which developed into rendering to full screen quad. Then I worked on small screen space effects such as motion blur, HDR, and depth of field.
+At this point I began to attempt Shadow mapping, having understood the concept quite well; to simplify depth buffer pass, shadow map generation, then map sampling and depth comparrison,
+unfortunately I did not have time to finish this before the short deadline but plan on returning to it in future though most likely in DirectX 12.
+<br>" class="image" style="width:100%">
 						  <div class="overlayPortfolio">
-						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
-							<div class="pName text"  style="font-family:sans-serif">Physics Engine</div>
+							<div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
+							<div class="pName text-white"   style="font-family:sans-serif; font-size: 1.2rem; text-align: center;">Advanced Graphics Rendering</div>
+							
 						  </div>
 						</div>
-					</div>
+                    </div>
 					
+					
+                  
                     <div class="col-lg-4 col-sm-6">
                         <div class="containerPortfolio" id="ContainerExample3">
-						  <img src="assets/img/portfolio/thumbnails/icons/TankBattle.png" id="ImageExample3" alt="Artifical Intelligience Assignment<br><br> 
+						  <img src="assets/img/portfolio/thumbnails/icons/TankBattle.jpg" id="ImageExample3" alt="Artifical Intelligience Assignment<br><br> 
 Skills: <br> - C++ Programming<br> - Visual Studio<br> - Implementing Search Algorithms<br><br> 
-Brief: Program an AI with pathfinding and a fuzzy state machine
+Brief: Program an AI with pathfinding and a fuzzy state machine <br>
 For my AI module I created a tank AI with the aim of competing in a group arena battle; this was unfortunately
 changed so that instead the AI should navigate a maze collecting crates and avoiding enemies. 
 This involved programming a fuzzy state machine that handles 11 states and pathfinding based on the Dynamic 
@@ -374,16 +376,41 @@ Recursion Search algorithm
 <br>Achieved: 100% " class="image" style="width:100%">
 						  <div class="overlayPortfolio">
 						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
-							<div class="pName text"  style="font-family:sans-serif">Tank AI ProjectS</div>
+							<div class="pName text"  style="font-family:sans-serif">Tank AI Project</div>
 						  </div>
 						</div>
                     </div>
 					
+					
 					<div class="col-lg-4 col-sm-6">
                         <div class="containerPortfolio" id="ContainerExample4">
-						  <img src="assets/img/portfolio/thumbnails/icons/Game 2.png" id="ImageExample4" alt="Scott vs Networking<br><br> 
+						  <img src="assets/img/Low Level Crop.png" id="ImageExample4" alt="Ray Tracer Optimisation<br><br> 
+Skills:<br> - C# Programming<br> - C++ Programming<br> - Windows Forms<br> - Visual Studio<br> - VS Profiling Tools<br><br> 
+Brief: Optimise and port a ray tracer from Windows platform to linux <br>
+Taking the framework provided, a slow ray tracer program, I fully profiled memory usage and run-time using visual studios built in profiling tools,
+I then added c++ 11s chronos for more accurate timings and profiled each section of the program. Using Win Forms I created a UI tool that allows the user 
+to create keyframes that will be animated between, this then writes to a json file which is then used in the main framework for reading position, sizes etc. of 
+the spheres being animated. Now onto memory managment, for noting when items are being added to the heap I overrode both the global and class specific new and 
+delete then to better keep track of what objects where using the most heap space I created a few custom heap classes, 
+one that just tracks the amout of space being used (this tracks most standard type objects), and another that preallocates memory and tracks positions in memory, this I 
+used to track my custom sphere objects. Then I performed general optimising techniques such as adding threads, switch out parameters to be passed by reference and adding buffers to 
+repeated writes to files. By this point the software was running about 8 times faster so it was time to port to Linux. Using a virtual machine and VS code I added linux specific #includes and switched out the
+threads for processes, as linux runs entirely on processes, then I profiled this using chrono and it ended up being just 1 second slower than the windows version.
+<br> Achieved: " class="image" style="width:100%">
+						  <div class="overlayPortfolio">
+						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
+							<div class="pName text"  style="font-family:sans-serif">Low Level Programming</div>
+						  </div>
+						</div>
+                    </div>
+					
+					
+					
+					<div class="col-lg-4 col-sm-6">
+                        <div class="containerPortfolio" id="ContainerExample5">
+						  <img src="assets/img/portfolio/thumbnails/icons/Game 2.png" id="ImageExample5" alt="Scott vs Networking<br><br> 
 Skills:<br> - C# Programming<br> - Windows Forms<br> - Visual Studio<br> - Multithreading<br><br> 
-Brief: Produce a networked chat application and server, alongside a multiplayer networked game
+Brief: Produce a networked chat application and server, alongside a multiplayer networked game <br>
 My First ever Project in C#! A networked chat client, that allows users to connect to a server and send messages using UDP or TCP, you can also wisper to other clients
  using their usernames displayed in the right hand panel, implemented techniques such as multithreading and thread locks. I also produced a small networked game that
  allows two users to play a more basic version of the fan favourite Scott Pilgrim vs. the World the game online for which I wrote my own rendering and animation system 
@@ -397,10 +424,29 @@ using windows forms Bitmaps, and collisions were handled using box colliders.
                     </div>
 					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample5">
-						  <img src="assets/img/portfolio/thumbnails/icons/FridgePortfolio.png" id="ImageExample5" alt="Fridge Raiders <br><br> 
+                        <div class="containerPortfolio" id="ContainerExample6">
+						  <img src="assets/img/Ukie raise the game jam crop 2.png" id="ImageExample6" alt="UKIE Game Jam<br><br> 
+Skills:<br> - C++ Programming<br> - Visual Studio<br> - Unreal Engine<br><br> 
+Brief: Ukie Jam 2020 #raisethegamejam theme<br>
+I acted as team leader for a six person team as we designed and created a small game in Unreal Engine. We brainstormed ideas about what game we found interesting 
+and came to the conclusion that we felt rather frustrated with this year so came up with the concept of having a character whom gets angry as time goes on and must take out this rage and 
+then hide the resulting bodies. Now with the plan laid down we split out all tasks using Trello and each person got to work. My tasks were to create a system that allow the player to attack, objects to 
+take damage, the ability to pick up and hide bodies and set up a basic menu that others could add too later. I quickly finished the menu and then began designing a component based attack/damage system that could be abstracted as much as possible 
+so it could be dragged and dropped on any character. I originally worked with the built in unreal component class but realised I would need to change things around as colliders would reset their position on start, I then implemented my planned classes 
+and waited until I was able to merge to the main branch and test, though all my work functioned properly on my own branch when the AI characters became involved they sometimes refused to die and would continually try to run away from the 
+player when trying to hide their body, so this was temporarily removed and intead the AI actor was simply removed on being hit." class="image" style="width:100%">
+						  <div class="overlayPortfolio">
+						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
+							<div class="pName text"  style="font-family:sans-serif">Ukie #RaiseTheGameJam</div>
+						  </div>
+						</div>
+                    </div>
+					
+					<div class="col-lg-4 col-sm-6">
+                        <div class="containerPortfolio" id="ContainerExample7">
+						  <img src="assets/img/GGJ2019 Crop.png" id="ImageExample7" alt="Fridge Raiders <br><br> 
 Skills:<br> - Unreal Engine 4 <br> - C++ Programming <br> - Collaborative work between discplines<br><br>
-Brief: GGJ 2019 Theme 'What Home Means To You'
+Brief: GGJ 2019 Theme 'What Home Means To You'<br>
 The first Game Jam I've ever Participated in! We created a wave based game where you must defend your fridge from enemies.
  Made in Unreal 4 using both blueprint and C++ in just 48 hours: I Created the pick up and weapon system along with the camera,
 and also did a lot of bug fixes for the other two programmers. I learned how to create cinematic cameras in unreal and used them to 
@@ -413,10 +459,10 @@ create a background for the start menu." class="image" style="width:100%">
                     </div>
 					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample6">
-						  <img src="assets/img/portfolio/thumbnails/icons/UnityEnvGen.png" id="ImageExample6" alt="Environment Generation Plug-in<br><br> 
+                        <div class="containerPortfolio" id="ContainerExample8">
+						  <img src="assets/img/portfolio/thumbnails/icons/UnityEnvGen.png" id="ImageExample8" alt="Environment Generation Plug-in<br><br> 
 Skills: <br> - C# Programming <br> - Unity <br><br>
-Brief: A personal project to experiment with Unity plug-ins
+Brief: A personal project to experiment with Unity plug-ins <br>
 A work in progress. An environment generation plugin for Unity that generates a grid map of a set size and populates it with trees, 
 tents and a river that paths from one side of the map to the other. The grid size, denisty of trees and amount of rivers (max two) can all be
 set in editor." class="image" style="width:100%">
@@ -427,27 +473,31 @@ set in editor." class="image" style="width:100%">
 						</div>
                     </div>
 					
+					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample7">
-						  <img src="assets/img/portfolio/thumbnails/icons/dx11scaled.png" id="ImageExample7" alt="Rocket Ball<br><br> 
-Skills:<br> - C++ Programing<br> - Visual Studio<br> - DirectX 11 <br><br>
-Brief: Create a DirectX 11 project focused around lighting and rendering
-My semester one Further Graphics DirectX 11 project, with a focus on the rendering side; makes use of phong shading, specular mapping, alpha blending,
-and billboarding. Achieved: 89%.
-" class="image" style="width:100%">
+                        <div class="containerPortfolio" id="ContainerExample9">
+						  <img src="assets/img/LD47Image Crop.png" id="ImageExample9" alt="Ludum Dare 47<br><br> 
+Skills: <br> - C# Programming <br> - Unity <br><br>
+Brief: Ludum Dare 47 theme 'Loop' <br> 
+After returning to unity after a long break, I threw myself in with the 47th LD game jam! After initially struggling with trying to come up with an original concept for the theme 'loop' I 
+thought about induction loops, that allow hard of hearing people to more easily hear. So going with this concept I modelled a small super market and a few items 
+that the player must collect to finish their grocery list and leave. However I wrote a shader that activates when not under and induction loop zone so the player may only see clearly when in that 
+zone and must work out where they need to head before leaving it. I also planned on having muffled audio that indicated to the player where to go but didn't have the time or resources to implement it. "
+class="image" style="width:100%">
 						  <div class="overlayPortfolio">
-						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
-							<div class="pName text"  style="font-family:sans-serif">Rocket Ball</div>
+						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >PERSONAL</div>
+							<div class="pName text"  style="font-family:sans-serif">Ludum Dare 47</div>
 						  </div>
 						</div>
                     </div>
 					
+
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample8">
-						  <img src="assets/img/portfolio/thumbnails/icons/Flocking Pic.png" id="ImageExample8" alt="Flocking In DirectX 11<br><br> 
+                        <div class="containerPortfolio" id="ContainerExample10">
+						  <img src="assets/img/portfolio/thumbnails/icons/Flocking Pic.jpg" id="ImageExample10" alt="Flocking In DirectX 11<br><br> 
 Skills:<br> - C++ Programming <br> - Visual Studio<br> - DirectX 11 
 <br><br>
-Brief: A personal project taking a look into flocking
+Brief: A personal project taking a look into flocking<br>
 During an optional summer session I created this little flocking AI example that I hope to expand 
 upon in future." class="image" style="width:100%">
 						  <div class="overlayPortfolio">
@@ -458,10 +508,10 @@ upon in future." class="image" style="width:100%">
                     </div>
 					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample9">
-						  <img src="assets/img/portfolio/thumbnails/icons/Unity table demo.png" id="ImageExample9" alt="Tilting Trouble <br><br> 
+                        <div class="containerPortfolio" id="ContainerExample11">
+						  <img src="assets/img/portfolio/thumbnails/icons/Unity table demo.jpg" id="ImageExample11" alt="Tilting Trouble <br><br> 
 Skills:<br> - C# Programing <br> - Unity <br><br>
-Brief: A Personal project experimenting with unity physics
+Brief: A Personal project experimenting with unity physics<br>
 A short physics based unity  game, made in a two hours session. You tilt the board using keyboard controls in order to make the balls reach the end of the map.
 " class="image" style="width:100%">
 						  <div class="overlayPortfolio">
@@ -471,28 +521,70 @@ A short physics based unity  game, made in a two hours session. You tilt the boa
 						</div>
                     </div>
 					
-					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample10">
-						  <img src="assets/img/portfolio/thumbnails/icons/GGJ2020Crop.png" id="ImageExample10" alt="Kraken Krisis<br><br> 
-Skills:<br>- Unreal <br> - C++ Programming <br><br>
-Brief: GGJ 2020 Theme 'Repair'
-6 person team in 48 hrs based on the theme of repair! An unreal project featuring several mini games you must repeatdly complete in order to stop your boat from sinking;
-my part was to make the character movement, camera system, ladders,and a skill check based mini game. Unfortunately the game was not fully completed before the deadline
-but we do plan on coming back to it and polishing it in future.
-" class="image" style="width:100%">
+                        <div class="containerPortfolio" id="ContainerExample12">
+						  <img src="assets/img/portfolio/thumbnails/icons/bow ww.png" id="ImageExample12" alt="Wind Waker Verticle Slice<br><br> Skills:<br> - Unreal Engine 4 <br> - C++ Programming <br><br>Before Starting second year I familiarised myself with unreal by creating a vertical slice of Wind Waker. This included making my own camera and player movement system in Unreal 4 using C++, and then choosing select i tems to replicate. <a href = 'https://www.youtube.com/watch?v=eruiO_3Euy4&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">
 						  <div class="overlayPortfolio">
 						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >PERSONAL</div>
-							<div class="pName text"  style="font-family:sans-serif">Global Game Jam 2020</div>
+							<div class="pName text"  style="font-family:sans-serif">Solo Unreal Project</div>
+						  </div>
+						</div>
+                    </div>
+
+					
+					<div class="col-lg-4 col-sm-6">
+                        <div class="containerPortfolio" id="ContainerExample13">
+						  <img src="assets/img/portfolio/thumbnails/icons/FeedMe2.png" id="ImageExample13" alt="Feed Me <br><br> Skills:<br> - C# Programming <br> - Windows Forms <br> - Visual Studio <br><br>My unique, if not slightly weird LD game. <br>
+						  Once again I decided to work in windows forms, creating my own rendering and animation system that then allowed me to create a short tamogotchi like game 
+						  with a slightly satanic ending.
+						  
+						  " class="image" style="width:100%">
+						  <div class="overlayPortfolio">
+						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >PERSONAL</div>
+							<div class="pName text"  style="font-family:sans-serif">Ludum Dare 46 2020</div>
 						  </div>
 						</div>
                     </div>
 					
+					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample11">
-						  <img src="assets/img/portfolio/thumbnails/icons/marioCrop.png" id="ImageExample11" alt="Retro Mario<br><br>
+                        <div class="containerPortfolio" id="ContainerExample14">
+						  <img src="assets/img/portfolio/thumbnails/icons/Impa Keep2.png" id="ImageExample14" alt="Hyrule Hack 'n Slash<br><br> Skills:<br> - Unreal Engine 4 <br> - C++ Programming <br><br>Unreal 4 project made as part of a pair, for my part I created a camera controller, combo attack system, mini map, weapon damage, all UIs, and a non-possessed player controller!. Achieved: 100%. <a href = 'https://www.youtube.com/watch?v=rCzqmhe8ARQ&feature=youtu.be&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">
+						  <div class="overlayPortfolio">
+						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
+							<div class="pName text"  style="font-family:sans-serif">Hyrule Hack 'n Slash</div>
+						  </div>
+						</div>
+                    </div>
+													
+					
+					<div class="col-lg-4 col-sm-6">
+                        <div class="containerPortfolio" id="ContainerExample15">
+						  <img src="assets/img/portfolio/thumbnails/icons/PhysicsAssignment.png" id="ImageExample15" alt="Second Year Physics Assignment<br><br> 
+Skills:<br> - C++ programming<br> - DirectX 11<br> - Visual Studio<br><br> 
+Brief: Create a physics engine modeling, rigid bodies, mass aggreates, collisions and a variety of forces<br>
+Using the Game Physics Engine Development book as a reference, I developed a physics engine built in DirectX 11,
+ contains rigid body physics, particle force generator,  mass aggregate particles, a variety of forces 
+and collision handling.
+Modelled Forces: bouyancy, turbulent drag (with editable coefficients), gravity, springs, laminar flow
+Colliders: Axis alligned bounding boxes, bounding sphere
+Particle System: particles with a lifecycle that can have varying forces applied to replicate many things, for
+example, rain or smoke. Uses the Object Pool design pattern.<br>
+Built on from my semester one project: a focus on the rendering side; makes use of phong shading, specular mapping, alpha blending,
+and billboarding. Achieved: 89%
+<br>Achieved: 93%  <a href='https://www.youtube.com/watch?v=h9O3CVDcuJ8&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">
+						  <div class="overlayPortfolio">
+						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
+							<div class="pName text"  style="font-family:sans-serif">Physics Engine</div>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-lg-4 col-sm-6">
+                        <div class="containerPortfolio" id="ContainerExample16">
+						  <img src="assets/img/portfolio/thumbnails/icons/marioCrop.png" id="ImageExample16" alt="Retro Mario<br><br>
 Skills:<br>- C++ Programming<br> - Visual Studio<br> - SDL2 <br><br>
-Brief: Create a physics ending using SDL2 then use it to build retro Mario
+Brief: Create a physics ending using SDL2 then use it to build retro Mario <br>
 For Games Engine Project two we were tasked with producing a clone of mario using my own engine, 
 built uisng SDL2, I replicated the arcade version with two players collecting coins to beat a high score. Then created a solo mode boss 
 battle against a familiar villain. 
@@ -506,55 +598,29 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 						</div>
                     </div>
 					
-					<div class="col-lg-4 col-sm-6">	
-                        <div class="containerPortfolio" id="ContainerExample12">	
-						  <img src="assets/img/portfolio/thumbnails/icons/Foggs2Crop.png" id="ImageExample12" alt="Apple Game<br><br> Skills:<br> - C++ Programming <br> - Visual Studio<br> - OpenGL <br><br>In C++ I focused on creating a first person player movement system 	
-						that uses matrices to create smooth movement. The game has a basic particle 	
-						effect for smoke on the fire that activates based on user input.  Module Mark: 72% <a href = 'https://www.youtube.com/watch?v=Dno6378I9f8&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">	
-						  <div class="overlayPortfolio">	
-						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>	
-							<div class="pName text"  style="font-family:sans-serif">Apple Game in OpenGL</div>	
-						  </div>	
-						</div>	
-                    </div>
+								
 					
 					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample13">
-						  <img src="assets/img/portfolio/thumbnails/icons/FeedMe2.png" id="ImageExample13" alt="Feed Me <br><br> Skills:<br> - C# Programming <br> - Windows Forms <br> - Visual Studio <br><br>My unique, if not slightly weird LD game" class="image" style="width:100%">
+                        <div class="containerPortfolio" id="ContainerExample17">
+						  <img src="assets/img/GGJ2020 Crop 2.png" id="ImageExample17" alt="Kraken Krisis<br><br> 
+Skills:<br>- Unreal <br> - C++ Programming <br><br>
+Brief: GGJ 2020 Theme 'Repair'<br>
+6 person team in 48 hrs based on the theme of repair! An unreal project featuring several mini games you must repeatdly complete in order to stop your boat from sinking;
+my part was to make the character movement, camera system, ladders,and a skill check based mini game. Unfortunately the game was not fully completed before the deadline
+but we do plan on coming back to it and polishing it in future.
+" class="image" style="width:100%">
 						  <div class="overlayPortfolio">
 						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >PERSONAL</div>
-							<div class="pName text"  style="font-family:sans-serif">Ludum Dare 46 2020</div>
+							<div class="pName text"  style="font-family:sans-serif">Global Game Jam 2020</div>
 						  </div>
 						</div>
                     </div>
-					
-					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample14">
-						  <img src="assets/img/portfolio/thumbnails/icons/Impa Keep2.png" id="ImageExample14" alt="Hyrule Hack 'n Slash<br><br> Skills:<br> - Unreal Engine 4 <br> - C++ Programming <br><br>Unreal 4 project made as part of a pair, for my part I created a camera controller, combo attack system, mini map, weapon damage, all UIs, and a non-possessed player controller!. Achieved: 100%. <a href = 'https://www.youtube.com/watch?v=rCzqmhe8ARQ&feature=youtu.be&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">
-						  <div class="overlayPortfolio">
-						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >UNIVERSITY</div>
-							<div class="pName text"  style="font-family:sans-serif">Hyrule Hack 'n Slash</div>
-						  </div>
-						</div>
-                    </div>
-					
-					<div class="col-lg-4 col-sm-6">
-                        <div class="containerPortfolio" id="ContainerExample15">
-						  <img src="assets/img/portfolio/thumbnails/icons/bow ww.png" id="ImageExample15" alt="Wind Waker Verticle Slice<br><br> Skills:<br> - Unreal Engine 4 <br> - C++ Programming <br><br>Before Starting second year I familiarised myself with unreal by creating a vertical slice of Wind Waker. This included making my own camera and player movement system in Unreal 4 using C++, and then choosing select i tems to replicate. <a href = 'https://www.youtube.com/watch?v=eruiO_3Euy4&ab_channel=AngharadHill' style='color:#ffff'/a> Video Link" class="image" style="width:100%">
-						  <div class="overlayPortfolio">
-						  <div class="pCategory text-white-50" style="text-align:center; font-family:sans-serif; font-size: 0.85rem; font-weight: 600; text-transform: uppercase;" >PERSONAL</div>
-							<div class="pName text"  style="font-family:sans-serif">Solo Unreal Project</div>
-						  </div>
-						</div>
-                    </div>
-					
-					
-					
 					
 		
 				</div>
 			</div>
 		</div>
+
 	</section>
 		
 		<!-- The Modal -->
@@ -657,9 +723,9 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			var container1 = document.getElementById("ContainerExample1");
 			var img1 = document.getElementById("ImageExample1");
 			container1.onclick = function(){
-			modalImg.src = "https://www.youtube.com/embed/XHXaq0trrEg";
-			  modal.style.display = "block";
-			   captionText.innerHTML = img1.alt;
+				modalImg.src = "https://www.youtube.com/embed/XHXaq0trrEg";
+				modal.style.display = "block";
+				captionText.innerHTML = img1.alt;
 			   
 			}
 
@@ -667,9 +733,9 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			var container2 = document.getElementById("ContainerExample2");
 			var img2 = document.getElementById("ImageExample2");
 			container2.onclick = function(){
-			modalImg.src = "https://www.youtube.com/embed/h9O3CVDcuJ8";
-			  modal.style.display = "block";
-			  captionText.innerHTML = img2.alt;
+				modalImg.src = "https://www.youtube.com/embed/9sn3gDImwZc";
+				modal.style.display = "block";
+				captionText.innerHTML = img2.alt;
 			  
 			  
 			}
@@ -689,7 +755,9 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container4.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img4.alt;
-			  modalImg.src = "https://www.youtube.com/embed/SysM5q9jjII";
+			  modalImg.src = img4.src;/*
+			  captionText.innerHTML = img4.alt;
+			  modalImg.src = "https://www.youtube.com/embed/SysM5q9jjII";*/
 			  
 			}
 			
@@ -699,7 +767,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container5.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img5.alt;
-			  modalImg.src = "https://www.youtube.com/embed/wKucns1Ehgo";
+			  modalImg.src = "https://www.youtube.com/embed/SysM5q9jjII";
 			  
 			}
 			
@@ -709,7 +777,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container6.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img6.alt;
-			  modalImg.src = "https://www.youtube.com/embed/LYl_cD2Jj2U";
+			  modalImg.src = img6.src;
 			  
 			}
 			
@@ -719,7 +787,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container7.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img7.alt;
-			  modalImg.src = img7.src;
+			  modalImg.src = "https://www.youtube.com/embed/wKucns1Ehgo";
 			  
 			}
 			
@@ -729,7 +797,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container8.onclick = function(){
 			  modal.style.display = "block";
 			   captionText.innerHTML = img8.alt;
-			  modalImg.src = "https://www.youtube.com/embed/Cljfj4EEe1Y";
+			  modalImg.src = "https://www.youtube.com/embed/LYl_cD2Jj2U";
 			 
 			}
 			
@@ -739,7 +807,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container9.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img9.alt;
-			  modalImg.src = "https://www.youtube.com/embed/8bgbhqZ0GN0";
+			  modalImg.src = img9.src;
 			  
 			}
 			
@@ -749,7 +817,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container10.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img10.alt;
-			  modalImg.src = img10.src;
+			  modalImg.src = "https://www.youtube.com/embed/Cljfj4EEe1Y";
 			  
 			}
 			
@@ -759,18 +827,20 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container11.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img11.alt;
-			  modalImg.src = "https://www.youtube.com/embed/5hpcCJMa98c";
+			  modalImg.src = "https://www.youtube.com/embed/8bgbhqZ0GN0";
 			  
 			}
 			
-			// Setup the event that will create the second popup
+			
+
+			
 			var container12 = document.getElementById("ContainerExample12");
 			var img12 = document.getElementById("ImageExample12");
 			container12.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img12.alt;
-			  modalImg.src = "https://www.youtube.com/embed/Dno6378I9f8";
-			 
+			  modalImg.src = "https://www.youtube.com/embed/eruiO_3Euy4";
+			  
 			}
 			
 			var container13 = document.getElementById("ContainerExample13");
@@ -796,7 +866,7 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container15.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img15.alt;
-			  modalImg.src = "https://www.youtube.com/embed/eruiO_3Euy4";
+			  modalImg.src = "https://www.youtube.com/embed/h9O3CVDcuJ8";
 			  
 			}
 			
@@ -805,16 +875,17 @@ Programming techniques: file write/read, std, box colliders, basic physics and b
 			container16.onclick = function(){
 			  modal.style.display = "block";
 			  captionText.innerHTML = img16.alt;
-			  modalImg.src = "https://www.youtube.com/embed/lAZ2HOJKHc8";
+			  modalImg.src = "https://www.youtube.com/embed/5hpcCJMa98c";
 			  
 			}
-
-			// Get the <span> element that closes the modal
-			var span = document.getElementsByClassName("close")[0];
-
-			// When the user clicks on <span> (x), close the modal
-			span.onclick = function() { 
-			  modal.style.display = "none";
+			
+			var container17 = document.getElementById("ContainerExample17");
+			var img17 = document.getElementById("ImageExample17");
+			container17.onclick = function(){
+			  modal.style.display = "block";
+			  captionText.innerHTML = img17.alt;
+			  modalImg.src = img17.src;
+			  
 			}
 		</script>
 	</body>
