@@ -4347,11 +4347,11 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #3c3f58;
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.0rem;
-  box-shadow: 10px 10px #C3A6A0;
+  box-shadow: 10px 10px #2d2f47;
 }
 .card > hr {
   margin-right: 0;
@@ -6103,7 +6103,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F7F1F0 !important;
+  background-color: #2f334e !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
